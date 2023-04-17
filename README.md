@@ -8,8 +8,23 @@ TODO: Guide users through getting your code up and running on their own system. 
 3.	Latest releases
 4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+# Pre-workshop set up
+
+## Resetting the repository
+
+To reset the repo prior to a workshop, we need to reset the main and each working group branch to their original state and remove any leftover sub-branches on Dev Ops.
+
+To reset a given branch, switch to the branch you want to reset and then run the git reset command as follows:
+
+```
+git switch workshop_group_1
+git log # to find the required commit code to reset to (currently 600c40955f38fa88e5e361f5164252f104e87d98)
+git reset --hard <commit_code>
+git push -f
+```
+
+## Modifying Dev Ops permissions
+
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
