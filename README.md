@@ -23,7 +23,16 @@ git reset --hard <commit_code>
 git push -f
 ```
 
+The go to the branches panel in the Dev Ops repository and delete any branches with the format grN_taskX.
+
 ## Modifying Dev Ops permissions
+
+Prior to the workshop make sure all attendees have a Dev Ops Basic licence (you can check this under [Organisation settings > Users](https://dfe-gov-uk.visualstudio.com/_settings/users)).
+
+Once that's checked, you need to add all attendees to the [Contributors group](https://dfe-gov-uk.visualstudio.com/official-statistics-production/_settings/permissions?subjectDescriptor=vssgp.Uy0xLTktMTU1MTM3NDI0NS0zNDAzODMyMjY2LTIxMzE0MjczOTMtMjg3NjM5NDc5NS0zODY2Mzg3NjctMS0yNDYxMTYxNjUxLTQwNTMwNTE0NjMtMjU4NjE0Mjc5MS0yNDI1MDA4MzA5) in the Official Statistics Production project. Being in the Contributors group allows users to create and modify tickets on Boards.
+
+Finally, remove previous attendees and assign current attendees to teams of 3 in the [Teams area](https://dfe-gov-uk.visualstudio.com/official-statistics-production/_settings/teams) of Dev Ops (workshop_devopsintro_1-5).
+
 
 
 # Contribute
